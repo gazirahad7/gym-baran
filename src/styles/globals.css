@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-color: #e5e5e5;
+  --btn-color: #264373;
+  --primary-color: #6765f0;
+}
+
+body {
+  font-family: "Sporting Grotesque", "roboto";
+  background-color: var(--bg-color);
+  @apply bg-gradient-to-r from-pink-100 to-white;
+}
+
+.nav-li-a {
+  @apply block py-2 pl-3 pr-4 text-black text-base   rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#6765f0] md:p-0  md:dark:hover:bg-transparent;
+}
+
+.my-btn {
+  background-color: var(--btn-color);
+}
+.mt-ml {
+  margin: -40px 0 0 -40px;
+}
+.ml-15 {
+  margin-left: -18px;
+}
+.text-shadow-cus {
+  text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4);
+}
