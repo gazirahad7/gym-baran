@@ -6,7 +6,7 @@ export const DailyMorning = () => {
   return (
     <section class="  px-4 md:py-6 ">
       <div class=" flex px-4 py-20 md:flex-row flex-col md:gap-x-48  gap-24 ">
-        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  items-center order-last md:order-none">
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6  items-center order-last md:order-last">
           <Image
             class="object-cover object-center  rounded scale-125"
             alt="hero"
