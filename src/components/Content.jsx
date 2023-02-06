@@ -4,9 +4,9 @@ export const Content = () => {
 
     return (
 
-        <section className="flex justify-between md:flex-row flex-col items-center gap-5 py-10 px-6">
+        <section className="flex justify-between md:flex-row flex-col items-start md:items-center gap-5 py-10 px-6">
 
-            <div className="md:w-1/2  text-5xl  sm:text-4xl font-semibold lg:text-6xl text-left  ">
+            <div className="md:w-1/2  text-5xl    sm:text-4xl font-semibold lg:text-6xl text-left  ">
                 <h1 className="">Healthy in side 
                 </h1>
              

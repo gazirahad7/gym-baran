@@ -10,12 +10,13 @@
 
 body {
   font-family: "Sporting Grotesque", "roboto";
+  /* @apply bg-gradient-to-r from-[#F4CDD6] via-white to-white; */
+  @apply bg-gradient-to-r from-pink-100 via-white to-white;
   background-color: var(--bg-color);
-  @apply bg-gradient-to-r from-pink-100 to-white;
 }
 
 .nav-li-a {
-  @apply block py-2 pl-3 pr-4 text-black text-base   rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#6765f0] md:p-0  md:dark:hover:bg-transparent;
+  @apply block py-2 pl-3 pr-4 text-black text-base    rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-[#6765f0] md:p-0  md:dark:hover:bg-transparent;
 }
 
 .my-btn {

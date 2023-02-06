@@ -1,4 +1,5 @@
 import { Content } from "@/components/Content";
+import { DailyMorning } from "@/components/DailyMorning";
 import Header from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import { Services } from "@/components/Services";
@@ -19,6 +20,7 @@ export default function Home() {
       <Services />
 
       <Workout />
+      <DailyMorning/>
     </div>
   );
 }

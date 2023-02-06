@@ -6,7 +6,7 @@ export const BtnSmall = () => {
   return (
     <button
       type="button"
-      class="text-white my-btn w-24 text-bold hover:bg-[#6765f0]  focus:outline-none  font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 drop-shadow-xl"
+      class="text-white my-btn w-24 text-bold hover:bg-[#6765f0]  focus:outline-none  font-medium rounded-lg text-sm px-5 py-3.5 text-center mr-2 mb-2 drop-shadow-xl"
     >
       Log in
     </button>
@@ -16,7 +16,7 @@ export const BtnMedium = () => {
   return (
     <button
       type="button"
-      class="bg-white text-black text-bold   flex justify-between focus:outline-none   font-medium rounded-lg drop-shadow-xl  px-4 py-4 text-center  w-36"
+      class="bg-white text-black text-bold   flex justify-between outline outline-1 outline-black   font-medium rounded-lg drop-shadow-xl  px-4 py-4 text-center  w-36"
     >
       <Image src={play} alt="ICON" />
       <span class="  font-bold">Learn more</span>
