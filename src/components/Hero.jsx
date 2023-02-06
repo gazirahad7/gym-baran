@@ -6,8 +6,8 @@ import arrowRounded from "../assets/images/arrow-rounded.svg";
 
 export default function Header() {
   return (
-    <section class=" bg-gradient-to-r from-pink-100 to-white px-4 md:py-6 ">
-      <div class=" flex px-4 py-24 md:flex-row flex-col items-center gap-6">
+    <section class="  px-4 md:py-6 ">
+      <div class=" flex px-4 py-20 md:flex-row flex-col items-center gap-6">
         <div class=" lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center ">
           <h1  class="text-shadow-cus text-5xl text-left text-black  lg:text-7xl  mb-8 mt-4 font-bold drop-shadow-xl ">
             Healthy in side
