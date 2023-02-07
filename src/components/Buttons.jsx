@@ -25,7 +25,7 @@ export const BtnLarge = ({ icons }) => {
   return (
     <button
       type="button"
-      class=" hover:bg-[#6765f0]  text-white flex justify-between my-btn text-bold  focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-8 py-4  drop-shadow-xl  sm:w-60 w-44 "
+      class=" hover:bg-[#6765f0]  text-white flex justify-between my-btn text-bold  focus:outline-none focus:ring-purple-300 dark:focus:ring-purple-800 font-medium rounded-lg text-sm px-4 py-4  drop-shadow-xl  sm:w-60 w-44 "
     >
       <span class="mr-5">Get Started</span>
       <span> {icons}</span>
