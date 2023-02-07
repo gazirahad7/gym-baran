@@ -16,7 +16,7 @@ const Navbar = () => {
   }
   return (
     <>
-      <nav class="   px-2 sm:px-4 py-4 rounded  ">
+      <nav class="   px-2 sm:px-4 py-4 rounded bg-white drop-shadow-xl md:bg-inherit  ">
         <div class=" flex flex-wrap items-center justify-between ">
           <a href="#" class="">
             <div class="h-14  w-44">

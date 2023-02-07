@@ -11,7 +11,7 @@ import { Workout } from "@/components/Workout";
 export default function Home() {
   return (
     <>
-    <div className="container mx-auto  sm:bg-inherit bg-white">
+    <div className="container mx-auto  ">
       <Navbar />
       <Header />
       <Content />
