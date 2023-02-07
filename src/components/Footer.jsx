@@ -23,7 +23,7 @@ export const Footer = () => {
 </div>
 
            
-           <div className="flex md:flex-row flex-col justify-between   gap-4 ">
+           <div className="flex md:flex-row flex-col justify-between  mx-10 gap-4 ">
 
             <div>
                 <div className="">
