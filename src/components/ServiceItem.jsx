@@ -7,8 +7,7 @@ export const ServiceItem = ({ image, content }) => {
       </div>
       <div className="text-white">
         <h4 className="text-bold text-xl">
-          Get that 11 line <br></br>
-          in 30 days
+          {content}
         </h4>
 
         <a href="#">
