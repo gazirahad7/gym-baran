@@ -3,7 +3,21 @@ import { BtnSmall } from "./Buttons";
 
 import logo from "../assets/images/logo.png";
 
+import { useState } from "react";
+
 const Navbar = () => {
+
+  const [openMenu, setMenu] = useState(false)
+
+  if (openMenu === true) {
+    window.addEventListener('click', (e) => {
+      console.log(e.target.classList.contains('menuList'))
+
+      if (e.target.classList.contains('menuList')) {
+        setMenu(false)
+      }
+    })
+  }
   return (
     <>
       <nav class="   px-2 sm:px-4 py-4 rounded  ">
@@ -13,10 +27,10 @@ const Navbar = () => {
               <Image src={logo} alt="logo" className="scale-125 mt-ml" />
             </div>
           </a>
-          <button
+          <button  onClick={(e) => setMenu(!openMenu)}
             data-collapse-toggle="navbar-default"
             type="button"
-            class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-300 dark:focus:ring-gray-600"
+            class=" inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-300 dark:focus:ring-gray-600"
             aria-controls="navbar-default"
             aria-expanded="false"
           >
@@ -67,6 +81,34 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
+
+      {openMenu ? (
+          <div className="menuList px-6 py-4 visible md:invisible drop-shadow-xl">
+            <ul >
+              <li>
+                <a href="#" className="nav-li-a">
+                  Home
+                </a>
+              </li>
+
+              <li>
+                <a href="#"  className="nav-li-a">Programs</a>
+              </li>
+              <li>
+                <a href="#"  className="nav-li-a">Blog</a>
+              </li>
+              <li>
+                <a href="#"  className="nav-li-a">About us</a>
+              </li>
+              <li >
+         
+                  <BtnSmall />
+            
+              </li>
+            </ul>
+          </div>
+        ) : null}
     </>
   );
 };
