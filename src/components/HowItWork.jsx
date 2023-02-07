@@ -1,8 +1,7 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import BestFullBoday from "../assets/images/best-full-boday.png";
 import howItWork from "../assets/images/how-it-work.png";
-import arrow from "../assets/images/arrow.svg";
-import { BtnLarge } from "./Buttons";
+
 export const HowItWork = () => {
   return (
     <section class="  px-4 md:py-6 ">

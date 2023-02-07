@@ -1,14 +1,10 @@
 import Image from "next/image";
 import { BtnSmall } from "./Buttons";
-
 import logo from "../assets/images/logo.png";
-
 import { useState } from "react";
 
 const Navbar = () => {
-
   const [openMenu, setMenu] = useState(false)
-
   if (openMenu === true) {
     window.addEventListener('click', (e) => {
       console.log(e.target.classList.contains('menuList'))
@@ -81,8 +77,6 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-
-
       {openMenu ? (
           <div className="menuList px-6 py-4 visible md:invisible drop-shadow-xl">
             <ul >
