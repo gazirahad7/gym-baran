@@ -1,6 +1,6 @@
 import Image from "next/image";
 import { BtnSmall } from "./Buttons";
-import logo from "../assets/images/logo.png";
+import logo from "../assets/images/logo.webp";
 import { useState } from "react";
 
 const Navbar = () => {

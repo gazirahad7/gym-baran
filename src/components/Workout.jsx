@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BestFullBoday from "../assets/images/best-full-boday.png";
+import BestFullBoday from "../assets/images/best-full-boday.webp";
 import arrow from "../assets/images/arrow.svg";
 import { BtnLarge } from "./Buttons";
 export const Workout = () => {

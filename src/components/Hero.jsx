@@ -1,6 +1,6 @@
 import Image from "next/image";
-import brands from "../assets/images/brands.png";
-import Hero from "../assets/images/hero.png";
+import brands from "../assets/images/brands.webp";
+import Hero from "../assets/images/hero.webp";
 import { BtnLarge, BtnMedium } from "./Buttons";
 import arrowRounded from "../assets/images/arrow-rounded.svg";
 

@@ -2,7 +2,7 @@
 import Image from "next/image";
 
 import footerImag from "../assets/images/footer-img.png";
-import logo from "../assets/images/footer-logo.png";
+import logo from "../assets/images/new-logo.webp";
 
 
 export const Footer = () => {
@@ -29,7 +29,7 @@ export const Footer = () => {
                 <div className="">
                    
                    <div className="w-32">
-                   <Image src={logo} alt="logo" className="scale-150 ml-[-30px]"  />
+                   <Image src={logo} alt="logo" className="scale-150 ml-[-26px]"  />
                    </div>
 
 

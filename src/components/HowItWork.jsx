@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
-import howItWork from "../assets/images/how-it-work.png";
+import howItWork from "../assets/images/how-it-work.webp";
 
 export const HowItWork = () => {
   return (

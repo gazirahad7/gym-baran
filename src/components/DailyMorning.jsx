@@ -1,5 +1,5 @@
 import Image from "next/image";
-import dailyMorning from "../assets/images/daily-morning.png";
+import dailyMorning from "../assets/images/daily-morning.webp";
 import arrow from "../assets/images/arrow.svg";
 import { BtnLarge } from "./Buttons";
 export const DailyMorning = () => {
