@@ -4,7 +4,7 @@ import Hero from "../assets/images/hero.webp";
 import { BtnLarge, BtnMedium } from "./Buttons";
 import arrowRounded from "../assets/images/arrow-rounded.svg";
 
-export default function Header() {
+export default function HeroSection() {
   return (
     <section class="  px-4 md:py-6 ">
       <div class=" flex px-4 py-20 md:flex-row flex-col items-center gap-6">

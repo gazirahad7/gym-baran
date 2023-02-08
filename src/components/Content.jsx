@@ -6,7 +6,7 @@ export const Content = () => {
 
         <section className="flex justify-between md:flex-row flex-col items-start md:items-center gap-5 py-10 px-6">
 
-            <div className="md:w-1/2  text-5xl    sm:text-4xl font-semibold lg:text-6xl text-left  ">
+            <div className="md:w-1/2  sm:text-5xl lg:text-6xl  text-4xl   font-semibold  text-left  ">
                 <h1 className="">Healthy in side 
                 </h1>
              

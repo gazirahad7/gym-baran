@@ -15,7 +15,7 @@ export const Workout = () => {
         </div>
 
         <div class=" items-start lg:flex-grow  md:w-1/2   flex flex-col  md:text-left mb-16   text-center">
-          <h1 class="text-5xl  text-left text-black md:text-4xl lg:text-5xl   mb-12 md:mt-4 font-bold  ">
+          <h1 class="  text-left text-black sm:text-5xl lg:text-6xl  text-4xl    mb-12 md:mt-4 font-bold  ">
             Best full body
             <br class=" inline-block" /> workout to lose fat
           </h1>
